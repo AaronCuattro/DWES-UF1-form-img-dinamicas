@@ -1,0 +1,35 @@
+<form id="form1" role="form" method="post" action="">
+    <input type="hidden" name="control" value="1">
+    
+    <input class="box" id="selectNombre" type="text" name="titulo" placeholder="Escribe un T&iacute;tulo" required></dd>
+    </br>
+    <input class="box" id="selectCiudad" type="text" name="ciudad" placeholder="Ciudad de la actividad" required></dd>
+    </br>
+    <input class="box" id="selectFecha" type="date" name="fecha" placeholder="Fecha" required></dd>
+    </br>
+    <select class="box" id="listaTipo" name="tipo" required>
+        <option value="" selected disabled>Selecciona el tipo</option>
+        <option value="musica">M&uacute;sica</option>
+        <option value="cine">Cine</option>
+        <option value="comida">Comida</option>
+        <option value="copas">Copas</option>
+        <option value="cultura">Cultura</option>
+        <option value="viajes">Viajes</option>
+    </select>
+    </br>
+    <label for="botonRadioGratis" for="botonRadioPago">Coste de la actividad:</label></dt>
+    </br>
+        <div class="opciones">
+            <input class="botonRadio" id="botonRadioGratis" type="radio" name="precio" value="Gratis" checked required>
+            <label for="inputPrecioGratis">Gratis</label>
+            </br>
+            <input class="botonRadio" id="botonRadioPago" type="radio" name="precio" value="De Pago" required>
+            <label for="inputPrecioPago">De Pago</label>
+        </div>
+    </br>
+    <div class="opciones">
+        <input class="boton" id="botonCrear" type="submit" value="Crear Actividad" name="crearActividad"/></dt>
+        </br>
+        <input class="boton" id="botonBorrar" type="reset" value="Borrar Datos" name="borrarDatos"></dd>
+    </div>
+</form>
