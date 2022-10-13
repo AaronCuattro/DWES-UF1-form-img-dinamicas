@@ -44,7 +44,7 @@ nav {
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
     background-color: rgb(0,0,0, 0.2);
     border: 2px solid #000;
     margin: 5px;
