@@ -206,6 +206,7 @@ h4{
 
 ul {
     margin-right: 15px;
+    list-style-type: none;
 }
 
 footer {
