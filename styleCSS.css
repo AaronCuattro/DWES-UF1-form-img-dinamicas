@@ -1,0 +1,214 @@
+/*Estilos tipográficos*/
+
+* {
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+label {
+    font-size: 14px;
+}
+
+
+
+
+/*Estilos Cabecera/Header*/
+
+#divcabecera {
+    background-color: white;
+}
+
+.cabecera {
+    background-color: rgb(0,0,0, 0.2);
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    margin: 5px;   
+}
+
+#titulos {
+    font-size: 25px;
+}
+
+#enunciado {
+
+}
+
+#tablaInicio {
+    padding-left: 15px;
+}
+
+#menuInicio {
+
+}
+
+#formInicio {
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+
+
+
+/*Estilos Cuerpo/Main*/
+
+#divcuerpo {
+    display: flex;
+    gap: 15px;
+}
+
+#divmain {
+    background-color: rgb(248, 159, 57, 1);
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    width: 1200px;
+}
+
+.cuerpo {
+    display: flex;
+    align-items: stretch;
+    gap: 50px;
+}
+
+#vacio {
+    width: 225px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #000000;
+}
+
+#lleno {
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #000000;
+}
+
+#fieldset {
+    margin-top: 9px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+#resulAñadido {
+
+}
+
+#resulVacio {
+
+}
+
+.img2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.barralateral {
+    background-color: rgb(248, 159, 57, 1);
+    border: 2px solid #000;
+    border-radius: 10px;
+    margin: 5px;
+    width: 115px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/*Estilos Pie de página/Footer*/
+
+footer {
+    background-color: rgb(0,0,0, 0.5);
+    text-align: center;
+    color: peachpuff;
+}
+
+
+
+
+/*Estilos Formulario*/
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    gap: 4px;
+}
+
+.opciones {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.boton {
+
+}
+
+
+
+
+/*Estilos de elementos concretos*/
+
+h1 {
+    margin-top: 4px;
+}
+
+h4 {
+    margin-left: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: rgb(0,0,0, 0.2);
+    border: 2px solid #000;
+    margin: 5px;
+}
+
+td {
+    background-color: rgb(248, 159, 57, 1);
+    padding: 8px;
+    border: peachpuff 2px solid;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+    height: 150px;
+}
+
+ul {
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+dl {
+    display: grid;
+}
+
+dd {
+    grid-column-start: 2;
+}
